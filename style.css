@@ -1,0 +1,298 @@
+
+/*mise en page du header*/
+
+/* body
+{
+    display: block;
+    justify-content: center;
+} */
+
+header{
+    display:flex;
+    justify-content:space-around;
+}
+/*modification de la liste*/
+header ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 200px;
+}
+/*modification des elements de la liste*/
+
+li a{
+    color: grey;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+li{
+    list-style-type: none;
+}
+/*li a{
+    text-decoration: none;
+}*/
+/*modifier le premier elt ou enfant(child de la liste)*/
+li:first-child a {
+    color: green;
+  }
+
+  /*modification de la taille de l'image*/
+.logo-docplanner {
+    max-width: 30%;
+    margin-top: 10px;
+}
+/*fin de mise en page HEADER
+
+/*mise en forme de la section */
+.logo{
+    display: block;
+    margin: auto;
+}
+.sec2 h1{
+    text-align: center;
+    color:turquoise;
+    font-size: 2rem;
+
+}
+.content{
+    /*border: 1px solid black;*/
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+
+}
+.ab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*mise en forme de la section 2 avec ....*/
+.abc h1{
+    color: white;
+
+}
+.abc p{
+    color: white;
+}
+.content1{
+    border: 1px solid black;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #00ccb1;
+}
+.content2{
+    border: 1px solid black;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #3d83df;
+}
+.content3{
+    border: 1px solid black;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #1b2734;
+    
+}
+
+
+.abc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* MISE EN FORME DE LA SECTION 4 : WE are global compagnywith local culture*/
+.sec4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    margin: 50px;
+    
+}
+ 
+.project-container{
+    
+    display: flex; 
+    flex-wrap: row wrap;
+
+}
+
+
+.container0{
+   
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container0 h1{
+    float: left;
+    font-size: 1.5em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    color: #00b39b;
+}
+
+.container2{
+ width: auto;
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+
+ 
+.container2 li{
+    
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+/* MiSE EN FORME DE LA SECTION 5:The world's biggest healthcare platform*/
+.project-container5{
+    background-color: #e5faf8 ;
+    width: 100%;
+    display: flex; 
+  
+
+} 
+
+
+.container50{
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container50 h1{
+    float: left;
+    font-size: 1.5em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    color:black;
+}
+
+.container52{
+ 
+ width: 50%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: baseline;
+}
+
+.az{
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+    
+} 
+.azz
+{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+h3
+{
+    text-align: center;
+}
+/*mise en page de la section 6*/
+.sec6 h1
+{
+    text-align: center;
+    color:turquoise;
+    font-size: 2rem;
+}
+
+/*mise en page de la section7*/
+.container7{
+
+    border: 1px solid black;
+    width: auto;
+    margin: 10px;
+}
+
+.sec7container{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+}
+/* mise en page de la section 8*/
+.sec8
+{
+    display: flex;
+    justify-content: center;
+}
+
+.sec81
+{
+    display: block;
+}
+.btn
+{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative; 
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+
+        
+}
+.btns{
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+
+}
+.er
+{
+ display: flex;
+ justify-content: space-around;
+}
+
+.main-footer 
+{
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
